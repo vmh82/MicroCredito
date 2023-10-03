@@ -1,0 +1,33 @@
+.mat-form-field {
+  font-size: 14px;
+  width: 60%;
+}
+
+[hidden] {
+  display: none;
+}
+
+.left { text-align: left }
+.flexExpand {
+  flex: 1 1 auto;
+}
+
+.mat-dialog-container{
+  max-width: 100%;
+  max-height: 100% !important;
+  resize: both;
+}
+
+.filler {
+  flex: 1 1 auto;
+}
+
+.gap {
+  margin-right: 10px;
+}
+
+.btn-sec {
+  margin-right: 5rem !important;
+  text-align: right;
+  margin-top: 1.5em;
+}

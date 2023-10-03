@@ -1,0 +1,55 @@
+$header-height: -15px;
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+
+.filler {
+  flex: 1 1 auto;
+}
+
+.gap {
+  margin-right: 10px;
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+
+.example-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 50%;
+}
+
+.card{
+  padding: 30;
+  margin: -$header-height auto 0;
+  width: 75%;
+}
+
+.actions{
+  margin-right: 15px;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+
+.card-amortizacion {
+  margin-top: 1%;
+
+}
+
+.title-card-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#00bdd2;
+}

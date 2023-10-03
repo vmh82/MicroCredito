@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Bs.AutoCredito.Comun/1.0.0": {
+        "dependencies": {
+          "Bs.AutoCredito.Core": "1.0.0"
+        },
+        "runtime": {
+          "Bs.AutoCredito.Comun.dll": {}
+        }
+      },
+      "Bs.AutoCredito.Core/1.0.0": {
+        "runtime": {
+          "Bs.AutoCredito.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bs.AutoCredito.Comun/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bs.AutoCredito.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

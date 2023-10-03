@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "h5MFc6hfID4trmse+y2gSXk76n4u0dOACjUIAsSXkUsb6VPKKnUIJHP5hf3J5MfAOT0vZROUERUYa6E4PQHKFA==",
+  "success": true,
+  "projectFilePath": "D:\\BsCaso1\\BsCredito\\Backend\\Bs.AutoCredito\\Bs.AutoCredito.Core\\Bs.AutoCredito.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DEV88\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\DEV88\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\DEV88\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

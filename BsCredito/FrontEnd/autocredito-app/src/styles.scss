@@ -1,0 +1,65 @@
+
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;;
+}
+
+html, body { height: 100%;  font-family: "Montserrat-Regular" }
+body { margin: 0;  }
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+html { background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+      color: #3f4254 ; }
+
+.mat-toolbar{
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    color: #3f4254 ;
+}
+
+.mat-form-field .mat-form-field-flex{
+    background: transparent;
+  }
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle {
+    background-color: rgb(66, 134, 244);
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
+    border-color: rgb(66, 134, 244);
+}
+
+.mat-raised-button.mat-warn{
+  background-color: #dc3545!important;
+}
+
+.actions{
+  margin-right: 15px;
+}
+
+.mat-form-field-underline{
+  background-color: rgb(66, 134, 244);
+}
+.mat-spinner{
+  color: #3f4254 ;
+}
+
+.mat-checkbox-checked.mat-accent .mat-checkbox-background, .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: rgb(66, 134, 244);
+}
+
+.mat-success {
+  background-color: #00B74A;
+  color: #f8f9fa;
+}

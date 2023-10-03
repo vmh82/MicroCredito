@@ -1,0 +1,81 @@
+<mat-toolbar>
+  <span class = "gap">Consultar Cuota a Pagar</span>
+  <span class = "filler"></span>
+</mat-toolbar>
+<div class="example-container mat-elevation-z8">
+  <mat-card>
+      <mat-card-content>
+          <mat-accordion>
+              <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                      <mat-panel-title>
+                          <div fxLayout="row" fxLayoutAlign="space-between center" >
+                              <mat-icon>person_search</mat-icon>Información General
+                          </div>
+                      </mat-panel-title>
+                  </mat-expansion-panel-header>
+                  <mat-form-field>
+                      <mat-placeholder>Identificación</mat-placeholder>
+                        <input matInput type="text" [formControl]="inputIdentificacion" >
+                        <button mat-button matSuffix mat-stroked-button aria-label="search" (click)="consultarCuotaPendiente()">
+                          <mat-icon>search</mat-icon>
+                      </button>
+                      <button mat-button matSuffix mat-stroked-button aria-label="clear">
+                          <mat-icon>clear</mat-icon>
+                      </button>
+                    </mat-form-field>
+                  </mat-expansion-panel>
+                  <div class="example-container mat-elevation-z8">
+                      <mat-card>
+                          <mat-card-content>
+                            <mat-table [dataSource]="dataSource"  matSort>
+                              <ng-container matColumnDef="numeroCuota">
+                              <mat-header-cell *matHeaderCellDef mat-sort-header>Cuota </mat-header-cell>
+                              <mat-cell *matCellDef="let row"> {{row.numeroCuota}} </mat-cell>
+                          </ng-container>
+                          <ng-container matColumnDef="fechaPago">
+                              <mat-header-cell *matHeaderCellDef mat-sort-header> Fecha Pago </mat-header-cell>
+                              <mat-cell *matCellDef="let row"> {{row.fechaPago  | date: 'yyyy/MM/dd' }} </mat-cell>
+                          </ng-container>
+                          <ng-container matColumnDef="capital">
+                              <mat-header-cell *matHeaderCellDef mat-sort-header> Capital </mat-header-cell>
+                              <mat-cell *matCellDef="let row"> {{row.capital}} </mat-cell>
+                          </ng-container>
+                          <ng-container matColumnDef="interes">
+                              <mat-header-cell *matHeaderCellDef mat-sort-header> Interes </mat-header-cell>
+                              <mat-cell *matCellDef="let row"> {{row.interes}} </mat-cell>
+                          </ng-container>
+                          <ng-container matColumnDef="cuotaTotal">
+                              <mat-header-cell *matHeaderCellDef mat-sort-header> Cuota total </mat-header-cell>
+                              <mat-cell *matCellDef="let row"> {{row.cuotaTotal}} </mat-cell>
+                          </ng-container>
+                          <ng-container matColumnDef="saldo">
+                            <mat-header-cell *matHeaderCellDef mat-sort-header> Saldo </mat-header-cell>
+                            <mat-cell *matCellDef="let row"> {{row.saldo}} </mat-cell>
+                        </ng-container>
+                        <ng-container matColumnDef="diasVencidos">
+                          <mat-header-cell *matHeaderCellDef mat-sort-header> Dias Vencidos </mat-header-cell>
+                          <mat-cell *matCellDef="let row"> {{row.diasVencidos}} </mat-cell>
+                      </ng-container>
+                        <ng-container matColumnDef="mora">
+                          <mat-header-cell *matHeaderCellDef mat-sort-header> Mora </mat-header-cell>
+                          <mat-cell *matCellDef="let row"> {{row.mora}} </mat-cell>
+                      </ng-container>
+                        <ng-container matColumnDef="visualizar">
+                          <mat-header-cell *matHeaderCellDef>Pagar</mat-header-cell>
+                          <mat-cell *matCellDef="let row">
+                            <button mat-button color="primary" (click)="abrirDialogCuota(row)"><mat-icon>request_quote</mat-icon></button>
+                          </mat-cell>
+                        </ng-container>
+                        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                          <mat-row *matRowDef="let row; columns: displayedColumns;">
+                          </mat-row>
+                          </mat-table>
+                          </mat-card-content>
+                      </mat-card>
+                  </div>
+           </mat-accordion>
+      </mat-card-content>
+  </mat-card>
+</div>
+

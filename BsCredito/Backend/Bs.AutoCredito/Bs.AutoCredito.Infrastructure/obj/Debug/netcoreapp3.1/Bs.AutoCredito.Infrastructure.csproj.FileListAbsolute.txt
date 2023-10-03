@@ -1,0 +1,15 @@
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.deps.json
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.dll
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.pdb
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.dll
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Core.dll
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.pdb
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Core.pdb
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.csproj.AssemblyReference.cache
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.AssemblyInfoInputs.cache
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.AssemblyInfo.cs
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.csproj.CoreCompileInputs.cache
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.csproj.CopyComplete
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.dll
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Infrastructure\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Infrastructure.pdb

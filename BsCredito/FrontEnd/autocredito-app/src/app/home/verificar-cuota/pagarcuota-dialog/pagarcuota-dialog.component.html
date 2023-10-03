@@ -1,0 +1,23 @@
+<div mat-dialog-container >
+  <mat-toolbar>Pago cuota</mat-toolbar>
+  <div class="margen-superior">
+  <form  fxLayoutAlign="center center"  fxFlexFill [formGroup]="form"  fxLayout="column" novalidate (ngSubmit)="guardarCuota()" >
+    <mat-form-field appearance="standard">
+      <mat-label>Cuota a Pagar</mat-label>
+      <input type="text" matInput    placeholder="Cuota a pagar"  formControlName="valorCuota" [(value)]="valorCuota"  autocomplete="off" readonly >
+    </mat-form-field>
+    <mat-form-field appearance="standard">
+      <mat-label>Fecha Vencimiento</mat-label>
+      <input type="text" matInput    placeholder="fechaVencimiento"  formControlName="fechaVencimiento" [(value)]="fechaVencimiento" autocomplete="off" readonly>
+    </mat-form-field>
+    <mat-form-field appearance="standard">
+      <mat-label>Monto Pago</mat-label>
+      <input type="text" matInput    placeholder="Monto Pago"  formControlName="montoPago"  autocomplete="off">
+    </mat-form-field>
+    <mat-card-actions class="actions">
+        <button type="submit" class="actions"  mat-raised-button color="primary" >Pagar</button>
+        <button mat-button type="button" class="actions"  mat-raised-button color="warn" (click)="onNoClick()">Cancelar</button>
+    </mat-card-actions>
+  </form>
+  </div>
+</div>

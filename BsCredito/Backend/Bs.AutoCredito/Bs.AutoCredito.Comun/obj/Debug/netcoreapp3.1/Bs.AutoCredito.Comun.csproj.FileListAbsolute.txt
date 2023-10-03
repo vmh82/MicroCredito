@@ -1,0 +1,13 @@
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.deps.json
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.dll
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.pdb
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Core.dll
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\bin\Debug\netcoreapp3.1\Bs.AutoCredito.Core.pdb
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.csproj.AssemblyReference.cache
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.GeneratedMSBuildEditorConfig.editorconfig
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.AssemblyInfoInputs.cache
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.AssemblyInfo.cs
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.csproj.CoreCompileInputs.cache
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.csproj.CopyComplete
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.dll
+D:\BsCaso1\BsCredito\Backend\Bs.AutoCredito\Bs.AutoCredito.Comun\obj\Debug\netcoreapp3.1\Bs.AutoCredito.Comun.pdb

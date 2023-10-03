@@ -1,0 +1,70 @@
+<mat-card class="card mat-elevation-z4" >
+  <mat-card-header class="title-card-center">
+    <mat-card-title >Simulador de Crédito Personal</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form fxLayout="column" [formGroup]="form" novalidate   fxLayoutAlign="center center" >
+      <mat-form-field appearance="standard">
+        <mat-label>Monto Solicitado</mat-label>
+        <input type="text" matInput  numbersOnly  placeholder="$USD" maxlength="4"  formControlName="monto"  autocomplete="off">
+        <mat-error *ngIf="form.controls['monto'].hasError">El monto ingresado debe estar entre 300-2000 USD</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="standard">
+        <mat-label>Interes</mat-label>
+        <input type="text" matInput  numbersOnly  placeholder="%" maxlength="4" formControlName="interes" [(value)]="interes" autocomplete="off" readonly>
+      </mat-form-field>
+      <mat-form-field appearance="standard">
+        <mat-label>Plazo(Meses)</mat-label>
+       <mat-select placeholder="Meses" [(value)]="idPlazoSel" formControlName="plazo">
+          <mat-option *ngFor="let p of plazo" [value]="p">{{p}}</mat-option>
+      </mat-select>
+      </mat-form-field>
+      <div mat-dialog-actions>
+        <button type="submit" class="actions" mat-raised-button color="primary" (click)="cotizarCredito()"  >Cotizar</button>
+        <button type="button" class="actions"  mat-raised-button color="success" (click)="abrirDialogSolicitud()">Solicitar Crédito</button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>
+<mat-card [hidden]="esInactivo" class="card-amortizacion">
+  <div >
+    <div class="example-container mat-elevation-z4">
+        <mat-card>
+          <mat-card-header class="title-card-center">
+            <mat-card-title >Tabla de Amortización</mat-card-title>
+          </mat-card-header>
+            <mat-card-content>
+                <mat-table [dataSource]="dataSource"  matSort>
+                    <ng-container matColumnDef="numeroCuota">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>Cuota </mat-header-cell>
+                    <mat-cell *matCellDef="let row"> {{row.numeroCuota}} </mat-cell>
+                </ng-container>
+                <ng-container matColumnDef="fechaPago">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header> Fecha Pago </mat-header-cell>
+                    <mat-cell *matCellDef="let row"> {{row.fechaPago  | date: 'yyyy/MM/dd' }} </mat-cell>
+                </ng-container>
+                <ng-container matColumnDef="capital">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header> Capital </mat-header-cell>
+                    <mat-cell *matCellDef="let row"> {{row.capital}} </mat-cell>
+                </ng-container>
+                <ng-container matColumnDef="interes">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header> Interes </mat-header-cell>
+                    <mat-cell *matCellDef="let row"> {{row.interes}} </mat-cell>
+                </ng-container>
+                <ng-container matColumnDef="cuotaTotal">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header> Cuota total </mat-header-cell>
+                    <mat-cell *matCellDef="let row"> {{row.cuotaTotal}} </mat-cell>
+                </ng-container>
+                <ng-container matColumnDef="saldo">
+                  <mat-header-cell *matHeaderCellDef mat-sort-header> Saldo </mat-header-cell>
+                  <mat-cell *matCellDef="let row"> {{row.saldo}} </mat-cell>
+              </ng-container>
+                <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: displayedColumns;">
+                </mat-row>
+                </mat-table>
+            </mat-card-content>
+        </mat-card>
+      </div>
+  </div>
+</mat-card>

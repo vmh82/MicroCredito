@@ -1,0 +1,21 @@
+<div mat-dialog-container >
+  <mat-toolbar>Solicitud de crédito</mat-toolbar>
+  <form  fxLayoutAlign="center center"  fxFlexFill [formGroup]="form"  fxLayout="column" novalidate (ngSubmit)="guardarCredito()" >
+    <mat-form-field appearance="standard">
+      <mat-label>Identificacion</mat-label>
+      <input type="text" matInput    placeholder="Identificacion"  formControlName="identificacion"  autocomplete="off">
+    </mat-form-field>
+    <mat-form-field appearance="standard">
+      <mat-label>Nombres</mat-label>
+      <input type="text" matInput    placeholder="Nombres"  formControlName="nombres"  autocomplete="off">
+    </mat-form-field>
+    <mat-form-field appearance="standard">
+      <mat-label>Apellidos</mat-label>
+      <input type="text" matInput    placeholder="Apellidos" formControlName="apellidos"  autocomplete="off">
+    </mat-form-field>
+    <mat-card-actions class="actions">
+        <button type="submit" class="actions"  mat-raised-button color="primary" >Guardar</button>
+        <button mat-button type="button" class="actions"  mat-raised-button color="warn" (click)="onNoClick()">Cancelar</button>
+    </mat-card-actions>
+  </form>
+</div>
